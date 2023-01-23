@@ -1,0 +1,629 @@
+
+.ctf{
+    border: solid 5px rgb(87, 4, 87);
+    background-color: rgb(5, 5, 63);
+    border-radius: 40px;
+    border: rgb(160, 70, 205) 3px solid;
+    width: 30%;
+    float: left;
+    margin-top: 9%;
+    margin-left: 10%;
+    padding: 1%;
+}
+
+.ctf:hover{
+    margin-right: 2%;
+    border: 6px solid royalblue;
+    transition: .5s;
+    
+}
+
+
+.titol{
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    margin: 2%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.descripcio{
+    background-color: black;
+    color:white;
+    text-align: start;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 30px;
+    font-size: 25px;
+    font-family: monaco, Consolas;
+    text-shadow: none;
+    
+}
+
+.formmenuari{
+    text-align: center;
+
+}
+
+.puntuacio{  
+    color: gold;
+    font-size: 40px;
+    margin: 1%;
+    font-family: monaco, Consolas;
+    text-align: center;
+    background-image: url(../img/lu.gif);
+    margin-bottom: 5%;
+
+}
+.flag{
+    font-size: 40px;
+    background: transparent;
+    color: white;
+    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 5px #FFF, 0 0 5px #3737e6, 0 0 10px #3737e6, 0 0 15px #3737e6, 0 0 15px #3737e6, 0 0 33px #3737e6;
+    border: solid 3px  #0ff;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 24%;
+    
+}
+
+
+.accedir{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    border: solid rgb(143, 40, 183) 3px;
+    margin-top: 5%;
+    
+}
+
+.dir_ultim{
+    margin-top: 18%;
+    margin-left: 25%;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 5px #FFF, 0 0 5px #3737e6, 0 0 10px #3737e6, 0 0 15px #3737e6, 0 0 15px #3737e6, 0 0 33px #3737e6;
+    font-size: 65px;
+    
+}
+
+
+.dir_ultim_movil{
+    display: none;
+}
+
+/*######################################## 1 #########################################################33*/
+
+@media (max-width: 1100px){
+
+    
+.ctf{
+    border: solid 5px rgb(87, 4, 87);
+    background-color: rgb(5, 5, 63);
+    border-radius: 40px;
+    border: rgb(160, 70, 205) 3px solid;
+    width: 45%;
+    float: left;
+    margin-top: 15%;
+    margin-left: 5%;
+    padding: 1%;
+}
+
+.ctf:hover{
+    margin-right: 2%;
+    border: 6px solid royalblue;
+    transition: .5s;
+    
+}
+
+
+.titol{
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    margin: 2%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.descripcio{
+    background-color: black;
+    color:white;
+    text-align: start;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: monaco, Consolas;
+    text-shadow: none;
+    
+}
+
+.formmenuari{
+    text-align: center;
+
+}
+
+.puntuacio{  
+    color: gold;
+    font-size: 40px;
+    margin: 1%;
+    font-family: monaco, Consolas;
+    text-align: center;
+    background-image: url(../img/lu.gif);
+    margin-bottom: 5%;
+
+}
+.flag{
+    font-size: 25px;
+    background: transparent;
+    color: white;
+    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 5px #FFF, 0 0 5px #3737e6, 0 0 10px #3737e6, 0 0 15px #3737e6, 0 0 15px #3737e6, 0 0 33px #3737e6;
+    border: solid 3px  #0ff;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 20%;
+}
+
+
+.accedir{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    border: solid rgb(143, 40, 183) 3px;
+    margin-top: 3%
+    
+}
+
+.dir_ultim{
+    margin-top: 30%;
+    margin-left: 25%;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 5px #FFF, 0 0 5px #3737e6, 0 0 10px #3737e6, 0 0 15px #3737e6, 0 0 15px #3737e6, 0 0 33px #3737e6;
+    font-size: 35px;
+    
+}
+
+
+.dir_menutim_movil{
+    display: none;
+}
+
+.section3 {
+    background: url("../img/darrerCtf.webp");
+    background-size: cover;
+    background-position: center center;
+    height: calc(80vh - 80px);
+  }
+}
+
+@media (max-width: 580px){
+    
+    
+.ctf{
+    border: solid 5px rgb(87, 4, 87);
+    background-color: rgb(5, 5, 63);
+    border-radius: 40px;
+    border: rgb(160, 70, 205) 3px solid;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 1%;
+}
+
+.ctf:hover{
+    margin-right: 2%;
+    border: 6px solid royalblue;
+    transition: .5s;
+    
+}
+
+
+.titol{
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    margin: 2%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.descripcio{
+    background-color: black;
+    color:white;
+    text-align: start;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: monaco, Consolas;
+    text-shadow: none;
+    
+}
+
+.formmenuari{
+    text-align: center;
+
+}
+
+.puntuacio{  
+    color: gold;
+    font-size: 40px;
+    margin: 1%;
+    font-family: monaco, Consolas;
+    text-align: center;
+    background-image: url(../img/lu.gif);
+    margin-bottom: 5%;
+
+}
+.flag{
+    font-size: 25px;
+    background: transparent;
+    color: white;
+    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 5px #FFF, 0 0 5px #3737e6, 0 0 10px #3737e6, 0 0 15px #3737e6, 0 0 15px #3737e6, 0 0 33px #3737e6;
+    border: solid 3px  #0ff;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 18%;
+}
+
+
+.accedir{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    border: solid rgb(143, 40, 183) 3px;
+    margin-top: 3%
+    
+}
+
+.dir_ultim{
+    display: none;
+}
+
+
+.dir_ultim_movil{
+    margin-top: 90%;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 5px #FFF, 0 0 5px #3737e6, 0 0 10px #3737e6, 0 0 15px #3737e6, 0 0 15px #3737e6, 0 0 33px #3737e6;
+    font-size: 30px;
+    display: block;
+    
+}
+
+}
+
+@media (max-width: 800px){}
+.flag{
+    font-size: 20px;
+}
+@media (max-width: 460px){
+    .dir_ultim_movil{
+        margin-top: 100%;
+        
+    }
+    .flag{
+        font-size: 20px;
+    }
+}
+@media (max-width: 430px){
+    .dir_ultim_movil{
+        margin-top: 135%;
+        
+    }
+    .flag{
+        font-size: 14px;
+    }
+}
+@media (max-width: 360px){
+    .dir_ultim_movil{
+        margin-top: 170%;
+        
+    }
+    .flag{
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 1300px){
+    .flag{
+        font-size: 25px;
+    }
+}
+@media (max-width: 849px){
+
+    
+.categorias{
+    width: 80%;
+    background-image: url(../img/ii.gif);
+    
+}
+
+.categorys{
+    font-size: 25px;
+    font-family: monaco, Consolas;
+    text-align:left;
+    margin-top: 3%;
+    padding: 3%;
+    
+
+}
+
+.categorys a{
+    color: white;
+}
+
+.categorys a:hover{
+    color: black;
+    background-color: white;
+}
+
+.flotante{
+    position: sticky;
+    top:0;
+    align-self: flex-start;
+
+}
+
+
+    #ctfs{
+       margin-left: 2.5%;
+        background-image: url("../img/sya.jpg");
+        width: 95%;
+       
+        display: block;
+        
+    }
+    
+    .millorCtfs{
+        font-size: 25px;
+    }
+    .ctf{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    
+    .titol{
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+        margin-bottom: 5%;
+        margin: 2%;
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+    .descripcio{
+        padding: 20px;
+        font-size: 18px;
+        
+    }
+    
+    
+    
+    
+    .validat{
+        margin-bottom: 1.5%;
+        margin-top: 1.5%;  
+        font-size: 15px;    
+    }
+    
+    .flagEnSi{
+        font-size: 14px; 
+    }
+    
+    .formmenuari{
+        margin-top: 3.5%;
+    
+    }
+
+    
+    .enviar{
+        font-size: 18px;
+        margin-top: 1.8%;
+    }
+    
+    .puntuacio{  
+        font-size: 28px;
+        margin: 0.5%;
+    
+    }
+    
+    .accedir{
+        font-size: 18px;
+        width: 65%;
+        margin-bottom: 2%;
+        margin-top: 3.5%;      
+    }
+    
+}
+
+@media (max-width: 760px){
+    .flag{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .millorCtfs{
+        font-size: 28px;
+    }
+    .ctf{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    
+    .titol{
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+        margin-bottom: 5%;
+        margin: 2%;
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+    .descripcio{
+        padding: 20px;
+        font-size: 14px;
+        
+    }
+    
+
+    .validat{
+        margin-bottom: 3%;
+        margin-top: 3%;  
+        font-size: 18px;    
+    }
+    
+    .flagEnSi{
+        font-size: 15px; 
+    }
+    
+    .formmenuari{
+        margin-top: 4%;
+    
+    }
+
+    
+    .enviar{
+        font-size: 20px;
+        margin-top: 3%;
+    }
+    
+    .puntuacio{  
+        font-size: 30px;
+        margin: 1%;
+    
+    }
+    
+    .accedir{
+        font-size: 22px;
+        width: 65%;
+        margin-bottom: 2%;
+        margin-top: 3.5%;      
+    }
+
+}
+
+@media (max-width: 580px){
+    .joc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flag{
+        font-size: 15px;
+    }
+    
+    .categorias{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("../img/fondo23.jpg");
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .categorys{
+        text-align: center;
+
+        
+    }
+    .categorys a{
+        text-align: center;
+    }   
+}
+
+@media (max-width: 450px){
+
+    #ctfs{
+       margin-left: 2.5%;
+        background-image: url("../img/sya.jpg");
+        width: 95%;
+       
+        display: block;
+        
+    }
+    
+    .millorCtfs{
+        font-size: 25px;
+    }
+    .ctf{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    
+    .titol{
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+        margin-bottom: 5%;
+        margin: 2%;
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+    .descripcio{
+        padding: 20px;
+        font-size: 14px;
+        
+    }
+    
+    
+    
+    
+    .validat{
+        margin-bottom: 1.5%;
+        margin-top: 1.5%;  
+        font-size: 15px;    
+    }
+    
+    .flagEnSi{
+        font-size: 14px; 
+    }
+    
+    .formmenuari{
+        margin-top: 3.5%;
+    
+    }
+
+    
+    .enviar{
+        font-size: 18px;
+        margin-top: 1.8%;
+    }
+    
+    .puntuacio{  
+        font-size: 28px;
+        margin: 0.5%;
+    
+    }
+    
+    .accedir{
+        font-size: 18px;
+        width: 65%;
+        margin-bottom: 2%;
+        margin-top: 3.5%;      
+    }
+}

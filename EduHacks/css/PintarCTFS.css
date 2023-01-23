@@ -1,0 +1,482 @@
+
+.saludos{
+    font-family:Copperplate, Copperplate Gothic Light, fantasy;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #b538d2, 0 0 30px #b538d2, 0 0 40px #b538d2, 0 0 55px #b538d2, 0 0 75px #b538d2;
+}
+
+.joc{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+
+.categorias{
+    border: solid rgb(133, 11, 133) 5px;
+    border-radius: 20px;
+    width: 20%;
+    background-image: url(../img/ii.gif);
+    margin-left: 3%;
+    
+}
+
+.categorys{
+    font-size: 25px;
+    font-family: monaco, Consolas;
+    text-align:left;
+    margin-top: 3%;
+    padding: 3%;
+    
+
+}
+
+.categorys a{
+    color: white;
+}
+
+.categorys a:hover{
+    color: black;
+    background-color: white;
+}
+
+.flotante{
+    position: sticky;
+    top:0;
+    align-self: flex-start;
+
+}
+#ctfs{
+    margin-left: 5%;
+    border: solid blue 3px;
+    background-image: url("../img/sya.jpg");
+    border-radius: 20px;
+    width: 75%;
+    margin-right: 3%;
+    display: block;
+    
+}
+
+.millorCtfs{
+    text-align: center;
+    margin-top: 2%;
+    color: blueviolet;
+    font-size: 40px;
+    font-family: monaco, Consolas;
+    background-color: transparent;
+}
+.ctfs2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ctf{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px rgb(87, 4, 87);
+    background-color: rgb(5, 5, 63);
+    border-radius: 40px;
+    margin-bottom: 10%;
+}
+
+.ctf:hover h3{
+    transition: .1s;
+    margin-right: 1%;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #975dda, 0 0 30px #975dda, 0 0 40px #975dda, 0 0 55px #975dda, 0 0 75px #975dda;
+
+}
+
+.titol{
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    margin: 2%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.descripcio{
+    background-color: black;
+    color:white;
+    padding: 30px;
+    text-align: center;
+    margin: 1%;
+    border-radius: 30px;
+    font-size: 25px;
+    font-family: monaco, Consolas;
+    
+}
+
+
+
+
+.validat{
+    font-family:Copperplate, Copperplate Gothic Light, fantasy;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #27e62e, 0 0 30px #27e62e, 0 0 40px #27e62e, 0 0 55px #27e62e, 0 0 75px #27e62e;
+    margin-bottom: 3%;
+    margin-top: 3%;  
+    font-size: 20px;    
+}
+
+.flagEnSi{
+    font-family:Copperplate, Copperplate Gothic Light, fantasy;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #f40303, 0 0 30px #f40303, 0 0 40px #f40303, 0 0 55px #f40303, 0 0 75px #f40303;
+    margin-bottom: 3%;
+    margin-top: 3%;  
+    font-size: 20px; 
+}
+
+.formulari{
+    margin-top: 6%;
+    text-align: center;
+  
+
+}
+.flag{
+    font-size: 40px;
+    background: transparent;
+    color: white;
+    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 5px #FFF, 0 0 5px #3737e6, 0 0 10px #3737e6, 0 0 15px #3737e6, 0 0 15px #3737e6, 0 0 33px #3737e6;
+    border: solid 3px  #0ff;
+    border-radius: 30px;
+}
+::placeholder{
+    color: white;
+    text-align: center;
+    font-family: monaco, Consolas;
+}
+
+.enviar{
+    font-size: 25px;
+    color: gold;
+    background-image: url("../img/uno.gif");
+    margin-top: 2%;
+    width: 98%;
+    font-family: monaco, Consolas;
+    border-radius: 30px;
+}
+
+.enviar:hover{
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #f40303, 0 0 30px #f40303, 0 0 40px #f40303, 0 0 55px #f40303, 0 0 75px #f40303;
+
+}
+
+.puntuacio{  
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+    background-image: url(../img/lu.gif);
+    margin: 1%;
+    font-family: monaco, Consolas;
+
+}
+
+.accedir{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    border: solid rgb(143, 40, 183) 3px;
+    margin-top: 5%;
+    
+    
+}
+
+#footer{
+    background-color: black;
+    
+}
+#footer p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+@media (max-width: 1300px){
+    .flag{
+        font-size: 25px;
+    }
+}
+@media (max-width: 849px){
+
+    
+.categorias{
+    width: 80%;
+    background-image: url(../img/ii.gif);
+    
+}
+
+.categorys{
+    font-size: 25px;
+    font-family: monaco, Consolas;
+    text-align:left;
+    margin-top: 3%;
+    padding: 3%;
+    
+
+}
+
+.categorys a{
+    color: white;
+}
+
+.categorys a:hover{
+    color: black;
+    background-color: white;
+}
+
+.flotante{
+    position: sticky;
+    top:0;
+    align-self: flex-start;
+
+}
+
+
+    #ctfs{
+       margin-left: 2.5%;
+        background-image: url("../img/sya.jpg");
+        width: 95%;
+       
+        display: block;
+        
+    }
+    
+    .millorCtfs{
+        font-size: 25px;
+    }
+    .ctf{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    
+    .titol{
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+        margin-bottom: 5%;
+        margin: 2%;
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+    .descripcio{
+        padding: 20px;
+        font-size: 18px;
+        
+    }
+    
+    
+    
+    
+    .validat{
+        margin-bottom: 1.5%;
+        margin-top: 1.5%;  
+        font-size: 15px;    
+    }
+    
+    .flagEnSi{
+        font-size: 14px; 
+    }
+    
+    .formulari{
+        margin-top: 3.5%;
+    
+    }
+
+    
+    .enviar{
+        font-size: 18px;
+        margin-top: 1.8%;
+    }
+    
+    .puntuacio{  
+        font-size: 28px;
+        margin: 0.5%;
+    
+    }
+    
+    .accedir{
+        font-size: 18px;
+        width: 65%;
+        margin-bottom: 2%;
+        margin-top: 3.5%;      
+    }
+    
+}
+
+@media (max-width: 760px){
+    .flag{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .millorCtfs{
+        font-size: 28px;
+    }
+    .ctf{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    
+    .titol{
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+        margin-bottom: 5%;
+        margin: 2%;
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+    .descripcio{
+        padding: 20px;
+        font-size: 14px;
+        
+    }
+    
+
+    .validat{
+        margin-bottom: 3%;
+        margin-top: 3%;  
+        font-size: 18px;    
+    }
+    
+    .flagEnSi{
+        font-size: 15px; 
+    }
+    
+    .formulari{
+        margin-top: 4%;
+    
+    }
+
+    
+    .enviar{
+        font-size: 20px;
+        margin-top: 3%;
+    }
+    
+    .puntuacio{  
+        font-size: 30px;
+        margin: 1%;
+    
+    }
+    
+    .accedir{
+        font-size: 22px;
+        width: 65%;
+        margin-bottom: 2%;
+        margin-top: 3.5%;      
+    }
+
+}
+
+@media (max-width: 580px){
+    .joc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flag{
+        font-size: 15px;
+    }
+    
+    .categorias{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("../img/fondo23.jpg");
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .categorys{
+        text-align: center;
+
+        
+    }
+    .categorys a{
+        text-align: center;
+    }   
+}
+
+@media (max-width: 450px){
+
+    #ctfs{
+       margin-left: 2.5%;
+        background-image: url("../img/sya.jpg");
+        width: 95%;
+       
+        display: block;
+        
+    }
+    
+    .millorCtfs{
+        font-size: 25px;
+    }
+    .ctf{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    
+    .titol{
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+        margin-bottom: 5%;
+        margin: 2%;
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+    .descripcio{
+        padding: 20px;
+        font-size: 14px;
+        
+    }
+    
+    
+    
+    
+    .validat{
+        margin-bottom: 1.5%;
+        margin-top: 1.5%;  
+        font-size: 15px;    
+    }
+    
+    .flagEnSi{
+        font-size: 14px; 
+    }
+    
+    .formulari{
+        margin-top: 3.5%;
+    
+    }
+
+    
+    .enviar{
+        font-size: 18px;
+        margin-top: 1.8%;
+    }
+    
+    .puntuacio{  
+        font-size: 28px;
+        margin: 0.5%;
+    
+    }
+    
+    .accedir{
+        font-size: 18px;
+        width: 65%;
+        margin-bottom: 2%;
+        margin-top: 3.5%;      
+    }
+}

@@ -1,0 +1,578 @@
+
+.Principal{
+    background: url("../img/perfil2.gif") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 2x);
+}
+.central-1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.dreta{
+    width: 20%;
+    margin-left: 8%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-size: 40px;
+    text-shadow: 0 0 20px #FFF, 0 0 30px #FFF, 0 0 45px #FFF, 0 0 60px #8032ae, 0 0 90px #8032ae, 0 0 120px #8032ae, 0 0 165px #8032ae, 0 0 75px #8032ae;
+    font-family: monaco, Consolas;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 60px);
+}
+
+.user{
+    margin-top: 60%;
+    
+
+}
+
+.dreta:hover p{
+    color: white;
+    text-shadow: 0 0 20px #FFF, 0 0 30px #FFF, 0 0 45px #FFF, 0 0 60px #e10909, 0 0 90px #e10909, 0 0 120px #e10909, 0 0 165px #e10909, 0 0 75px #e10909;
+
+}
+
+.esquerra{
+    margin-left:15%;
+    background-image: url("../img/perfil3.gif");
+    width: 60%;
+    display: block;
+    color: red;
+    font-size: 20px;
+    font-family: monaco, Consolas;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 60px);
+}
+.imatge{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: solid rgb(29, 44, 210) 5px;
+    background-image: url("../img/lu.gif");
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.imatge img{
+    width: 50%;
+}
+.imatge p{
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: solid 3px plum;
+    color: black;
+}
+.enviar{
+    margin-left: 17%;
+    margin-right: 17%;
+    width: 50%;
+    border: #8032ae solid 1px;
+    background: transparent;
+    color: white;
+    font-family: monaco, Consolas;
+}
+
+.enviar:hover{
+    background-color: #8032ae;
+    color: white;
+    border: black;
+}
+
+.personal{
+    margin-top: 5%;
+}
+.informacio{
+    border: solid rgb(203, 49, 196) 2px;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    margin-left: 17%;
+    margin-right: 17%;
+    font-size: 25px;
+    font-family: monaco, Consolas;
+    padding: 1%;
+    color: white;
+    background-color: black;
+}
+
+.informacio:hover{
+    background-color: white;
+    color: black;
+}
+
+.separarApartats{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+    border: #975dda solid 3px;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.Secundari{
+    background: url("../img/lu.gif") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80x);
+}
+.flotante{
+    position: sticky;
+    top:0;
+    align-self: flex-start;
+
+}
+#ctfs{
+    background-image: url("../img/sya.jpg");
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+
+}
+
+.ctfs2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ctf{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px rgb(87, 4, 87);
+    background-color: rgb(5, 5, 63);
+    border-radius: 40px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.ctf:hover h3{
+    transition: .1s;
+    margin-right: 1%;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #975dda, 0 0 30px #975dda, 0 0 40px #975dda, 0 0 55px #975dda, 0 0 75px #975dda;
+
+}
+
+.titol{
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    margin: 2%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.descripcio{
+    background-color: black;
+    color:white;
+    padding: 30px;
+    text-align: center;
+    margin: 1%;
+    border-radius: 30px;
+    font-size: 25px;
+    font-family: monaco, Consolas;
+    
+}
+
+
+.accedir{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    border: solid rgb(143, 40, 183) 3px;
+    margin-top: 5%;
+    
+    
+}
+
+.flagEnSi{
+    font-family:Copperplate, Copperplate Gothic Light, fantasy;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #f40303, 0 0 30px #f40303, 0 0 40px #f40303, 0 0 55px #f40303, 0 0 75px #f40303;
+    margin-bottom: 3%;
+    margin-top: 3%;  
+    font-size: 20px; 
+}
+
+
+
+
+.puntuacio{  
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+    background-image: url(../img/lu.gif);
+    margin: 1%;
+    font-family: monaco, Consolas;
+
+}
+
+#footer{
+    background-color: black;
+    
+}
+#footer p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+
+@media (max-width: 1300px){
+    .flag{
+        font-size: 25px;
+    }
+}
+@media (max-width: 849px){
+
+    
+.categorias{
+    width: 80%;
+    background-image: url(../img/ii.gif);
+    
+}
+
+.categorys{
+    font-size: 25px;
+    font-family: monaco, Consolas;
+    text-align:left;
+    margin-top: 3%;
+    padding: 3%;
+    
+
+}
+
+.categorys a{
+    color: white;
+}
+
+.categorys a:hover{
+    color: black;
+    background-color: white;
+}
+
+.flotante{
+    position: sticky;
+    top:0;
+    align-self: flex-start;
+
+}
+
+
+    #ctfs{
+       margin-left: 2.5%;
+        background-image: url("../img/sya.jpg");
+        width: 95%;
+       
+        display: block;
+        
+    }
+    
+    .millorCtfs{
+        font-size: 25px;
+    }
+    .ctf{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    
+    .titol{
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+        margin-bottom: 5%;
+        margin: 2%;
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+    .descripcio{
+        padding: 20px;
+        font-size: 18px;
+        
+    }
+    
+    
+    
+    
+    .validat{
+        margin-bottom: 1.5%;
+        margin-top: 1.5%;  
+        font-size: 15px;    
+    }
+    
+    .flagEnSi{
+        font-size: 14px; 
+    }
+    
+    .formulari{
+        margin-top: 3.5%;
+    
+    }
+
+    
+    .enviar{
+        font-size: 18px;
+        margin-top: 1.8%;
+    }
+    
+    .puntuacio{  
+        font-size: 28px;
+        margin: 0.5%;
+    
+    }
+    
+    .accedir{
+        font-size: 18px;
+        width: 65%;
+        margin-bottom: 2%;
+        margin-top: 3.5%;      
+    }
+    
+}
+
+@media (max-width: 760px){
+    .flag{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .millorCtfs{
+        font-size: 28px;
+    }
+    .ctf{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    
+    .titol{
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+        margin-bottom: 5%;
+        margin: 2%;
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+    .descripcio{
+        padding: 20px;
+        font-size: 14px;
+        
+    }
+    
+
+    .validat{
+        margin-bottom: 3%;
+        margin-top: 3%;  
+        font-size: 18px;    
+    }
+    
+    .flagEnSi{
+        font-size: 15px; 
+    }
+    
+    .formulari{
+        margin-top: 4%;
+    
+    }
+
+    
+    .enviar{
+        font-size: 20px;
+        margin-top: 3%;
+    }
+    
+    .puntuacio{  
+        font-size: 30px;
+        margin: 1%;
+    
+    }
+    
+    .accedir{
+        font-size: 22px;
+        width: 65%;
+        margin-bottom: 2%;
+        margin-top: 3.5%;      
+    }
+
+}
+
+@media (max-width: 580px){
+    .joc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flag{
+        font-size: 15px;
+    }
+    
+    .categorias{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("../img/fondo23.jpg");
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .categorys{
+        text-align: center;
+
+        
+    }
+    .categorys a{
+        text-align: center;
+    }   
+}
+
+@media (max-width: 450px){
+
+    #ctfs{
+       margin-left: 2.5%;
+        background-image: url("../img/sya.jpg");
+        width: 95%;
+       
+        display: block;
+        
+    }
+    
+    .millorCtfs{
+        font-size: 25px;
+    }
+    .ctf{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    
+    .titol{
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+        margin-bottom: 5%;
+        margin: 2%;
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+    .descripcio{
+        padding: 20px;
+        font-size: 14px;
+        
+    }
+    
+    
+    
+    
+    .validat{
+        margin-bottom: 1.5%;
+        margin-top: 1.5%;  
+        font-size: 15px;    
+    }
+    
+    .flagEnSi{
+        font-size: 14px; 
+    }
+    
+    .formulari{
+        margin-top: 3.5%;
+    
+    }
+
+    
+    .enviar{
+        font-size: 18px;
+        margin-top: 1.8%;
+    }
+    
+    .puntuacio{  
+        font-size: 28px;
+        margin: 0.5%;
+    
+    }
+    
+    .accedir{
+        font-size: 18px;
+        width: 65%;
+        margin-bottom: 2%;
+        margin-top: 3.5%;      
+    }
+}
+
+@media (max-width: 1300px){
+    .user{
+        margin-top: 60%;
+        margin-right: 140%;
+        
+    
+    }
+}
+  
+
+@media (max-width: 1110px){
+    .user{
+     display: none;  
+    
+    }
+
+    .dreta{
+        display: none;
+    }
+
+    .esquerra{
+        margin-right: 10%;
+        margin-left: 10%;
+        background-image: url("../img/perfil3.gif");
+        width: 100%;
+        display: block;
+        color: red;
+        font-size: 30px;
+        font-family: monaco, Consolas;
+        background-size: cover;
+        background-position: center center;
+       
+        height: calc(100vh - 80px);
+        
+    }
+}
+
+@media (max-width: 550px){
+
+    .esquerra{
+        margin-right: 5%;
+        margin-left: 5%;
+        background-image: url("../img/perfil3.gif");
+        width: 120%;
+        display: block;
+        color: red;
+        font-size: 20px;
+        font-family: monaco, Consolas;
+        background-size: cover;
+        background-position: center center;
+       
+        height: calc(100vh - 80px);
+        
+    }
+
+}

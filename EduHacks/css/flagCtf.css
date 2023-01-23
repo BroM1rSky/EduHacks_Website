@@ -1,0 +1,66 @@
+
+input[type=text]{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+     border-radius: 20px;
+     border: 1px solid #2d9fd9;
+     color: #c10fa7;
+     width: 250px;
+     height: 30px;
+     padding-left: 10px;
+    }
+    
+
+
+input[type=text]:focus {
+     outline: none;
+     border: 1px solid #a0d18c;
+     color: #2d9fd9;
+}
+
+.user-box input{
+    width: 50%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: rgb(26, 197, 13);
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: #0b055b;
+
+}
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+
+.user-box p{
+    font-size: 20px;
+    color: red;
+    text-align: left;
+}
+
+
+.boton{
+  
+  padding: 10px 20px;
+  margin-bottom: 25%;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
